@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sublimación XYZ - Tu negocio de sublimación</title>
+  
+  <script src="https://kit.fontawesome.com/77a1685fc1.js" crossorigin="anonymous"></script>
+  <style>
+
+    @media only screen and (max-width: 736px) {
+      header {
+      background-color: #3E3C5E;
+      z-index: 2;
+      width: 736px;
+    }
+
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #E3944A;
+      z-index: 2;
+    }
+    
+    header {
+      background-color: #3E3C5E;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      z-index: 2;
+    }
+    
+    h1 {
+      margin: 0;
+      z-index: 2;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      z-index: 2;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+      z-index: 2;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      z-index: 2;
+    }
+    
+    section {
+      padding: 40px;
+      z-index: 2;
+    }
+    
+    section h2 {
+      margin-top: 0;
+      color: white;
+      animation-name: entradados;
+      animation-duration: 1.5s;
+      font-size: 70px;
+      position: relative;
+      top: 200px;
+      left: 250px;
+      z-index: 2;
+    }
+    
+    .imagen {
+      display: inline-block;
+      text-align: center;
+      margin-right: 20px;
+      z-index: 2;
+    }
+    
+    .imagen img {
+      width: 200px;
+      height: auto;
+      z-index: 2;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      z-index: 2;
+    }
+    .termo img{
+        position: relative;
+        top: -100px;
+        left: 900px;
+        width: 650px;
+        height: 650px;
+        animation-name: entrada;
+        animation-duration: 1.5s;
+        z-index: 2;
+    }
+
+    section p{
+        width: 700px;
+        font-size: 20px;
+        position: relative;
+        left: 275px;
+        top: -500px;
+        color: white;
+        animation-name: entradatres;
+        animation-duration: 1.5s;
+        z-index: 2;
+    }
+
+    .lista{
+        position: relative;
+        left: 275px;
+        top: -865px;
+        font-size: 20px;
+        color: white;
+        animation-name: entradacuatro;
+        animation-duration: 1.5s;
+        z-index: 2;
+    }
+
+    .servicios h2{
+        text-align: center;
+        color: white;
+        font-size: 70px;
+        position: relative;
+        top: -450px;
+        z-index: 2;
+    }
+
+    .camisa{
+        font-size: 150px;
+        position: relative;
+        top: -730px;
+        left: 400px;
+        z-index: 2;
+    }
+
+    .diseno{
+        font-size: 150px;
+        position: relative;
+        top: -900px;
+        left: 900px;
+        z-index: 2;
+    }
+
+    .marketing{
+        font-size: 150px;
+        position: relative;
+        top: -1070px;
+        left: 1400px;
+        z-index: 2;
+    }
+
+    .rectangulo{
+        background-color: white;
+        width: 1905px;
+        height: 300px;
+        position: relative;
+        top: -450px;
+        z-index: 2;
+    }
+
+    .sublimacion{
+      position: relative;
+      z-index: 3;
+      top: 400px;
+      left: 375px;
+      font-size: 30px;
+      color: #E3944A;
+      z-index: 3;
+    }
+
+    .grafico{
+      position: relative;
+      z-index: 3;
+      top: 325px;
+      left: 825px;
+      font-size: 30px;
+      color: #E3944A;
+      z-index: 3;
+    }
+
+    .mercadotecnia{
+      position: relative;
+      z-index: 3;
+      top: 245px;
+      left: 1390px;
+      font-size: 30px;
+      color: #E3944A;
+      z-index: 3;
+    }
+
+    .galeria img{
+      position: relative;
+      width: 1905px;
+      height: 1070px;
+      top: -1255px;
+      z-index: 2;
+    }
+
+    .contacto{
+      position: relative;
+      top: -1000px;
+      z-index: 2;
+    }
+
+    .logo img{
+      position: relative;
+      width: 250px;
+      height: 80px;
+      top: -3630px;
+      left: 30px;
+      z-index: 2;
+    }
+
+    .search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+  position: relative;
+  top: -3800px;
+  left: 700px;
+  z-index: 2;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #E3944A;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: -3800px;
+  left: 700px;
+  z-index: 2;
+}
+
+button[type="submit"]:hover {
+  background-color: white;
+  color: #E3944A;
+  z-index: 2;
+}
+
+.fondo img{
+  width: 1905px;
+  height: 1390px;
+  position: relative;
+  top: -3772px;
+  z-index: 0;
+  opacity: 05%;
+}
+
+.contacto{
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  top: -1400px;
+  color: #fff;
+}
+
+.datos{
+  text-align: center;
+  position: relative;
+  top: -2800px;
+}
+
+    @keyframes entrada {
+        0%{position: relative; left:1500px;}
+        100%{position: relative; left:900px;}
+    }
+    @keyframes entradados {
+        0%{position: relative; left: -1000px; top: 200px;}
+        100%{position: relative; left: 250px; top: 200px;}
+    }
+    @keyframes entradatres {
+        0%{width: -700px; font-size: 20px; position: relative; left: -1575px; top: -500px;}
+        100%{width: 700px; font-size: 20px; position: relative; left: 275px; top: -500px;}
+    }
+    @keyframes entradacuatro {
+        0%{position: relative; left: -1575px; top: -865px; font-size: 20px;}
+        100%{position: relative; left: 275px; top: -865px; font-size: 20px;}
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SÚBLIMA</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="inicio">
+    <h2>Bienvenido a SÚBLIMA</h2>
+    <div class="termo"><img src="Imagen.jpg" alt=""></div>
+    <p>Somos especialistas en personalización de productos mediante la técnica de sublimación. Ofrecemos una amplia gama de opciones para crear 
+        diseños únicos y personalizados en camisetas, tazas, gorras y más.</p>
+  </section>
+
+<div class="sublimacion"><h3>SUBLIMACIÓN</h3></div>
+<div class="grafico"><h3>DISEÑO GRÁFICO</h3></div>
+<div class="mercadotecnia"><h3>MARKETING</h3></div>
+  
+  
+  <div class="lista">
+    <section id="servicios">
+        <ul>
+          <li>Personalización de camisetas</li>
+          <li>Personalización de tazas</li>
+          <li>Personalización de gorras</li>
+          <li>Sublimación en otros productos</li>
+        </ul>
+      </section>
+  </div>
+  
+  <div class="servicios"><h2>Nuestros servicios</h2></div>
+  <div class="rectangulo"></div>
+  <div class="camisa"><i class="fa-solid fa-shirt" style="color: #E3944A;"></i></div>
+  <div class="diseno"><i class="fa-solid fa-pen-nib" style="color: #E3944A;"></i></div>
+  <div class="marketing"><i class="fa-solid fa-people-group" style="color: #E3944A;"></i></div>
+
+  <a href=""><div class="galeria"><img src="Imagen 1.png" alt=""></div></a>
+
+  <div class="logo"><img src="Logo 1.png" alt=""></div>
+    <div class="contacto"><h2>CONTACTO</h2></div>
+
+    <div class="busqueda"><div class="search-container">
+      <input type="text" placeholder="Buscar">
+      <button type="submit">Buscar</button>
+    </div></div>
+
+    <div class="fondo"><img src="Sublimacion.jpg" alt=""></div>
+    <div class="datos"><img src="Contacto.png" alt=""></div>
+
+    
